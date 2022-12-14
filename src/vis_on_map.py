@@ -13,7 +13,7 @@ def vis_on_map(
     num_institutions_cite_my_work: List[int] = None,
     delta_for_latitude_for_better_vis: float = 1.0,
     save_fn="index.html",
-    opacity_val=8.0,
+    opacity_val=1.0,
 ):
     world_map = folium.Map(tiles="cartodbpositron")
     N = len(countries)
